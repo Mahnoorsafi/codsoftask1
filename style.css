@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 15;
+    padding: 10;
+}
+
+/* Style the header section */
+.landing-header {font-family: 'Dancing Script', cursive;
+  background-image:url('https://img.freepik.com/premium-photo/painting-sunset-lake-mountains_969419-835.jpg');
+   background-size: cover; /* Cover the entire header with the image */
+    background-position: center;
+    background-color: #ffcccc;
+    color: white;
+   
+    text-align: center;
+    padding: 50px 100px;;
+}
+.logo-container {
+    margin-right: 1200px;
+}
+
+.logo {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+nav ul {text-align:right;
+    list-style: none;
+}
+
+nav ul li {  
+    display: inline;
+    margin-right: 40px; 
+
+}
+
+nav ul li a {font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}/* Style the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Separate content to left and right */
+    max-width: 1000px; /* Limit width of content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 120px;
+    position: relative; /* Create a new stacking context */
+}
+
+/* Style the content on the left */
+.content-left {
+    flex: 10;
+}
+
+/* Style the content on the right */
+.content-right {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: justify;
+}
+
+.content-right img {
+  max-width: 100%; /* Ensure image fits within the container */}
+ 
+/* Style the call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FD68C9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5.5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4d4d;
+}
+/* Style the footer section */
+.site-footer {font-family: 'Dancing Script', cursive;
+    background-color: #ffcccc;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 20px 0;
+}
+
+.footer-content a {
+    color: #ff9900;
+    text-decoration: underline;
+}
+.footer-content a:hover {
+    text-decoration: none;
+}
